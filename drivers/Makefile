@@ -131,6 +131,4 @@ obj-$(CONFIG_HWSPINLOCK)	+= hwspinlock/
 obj-$(CONFIG_MMCPOLL)		+= mmc-poll/
 obj-$(CONFIG_SAMSUNG_MHL)       += accessory/
 
-ifeq (1, $(shell if [ -d $(srctree)/drivers/exfat ] ; then echo 1 ; fi))
 obj-y                           += exfat/
-endif
