@@ -1,8 +1,8 @@
 #include "vchiq_build_info.h"
 #include <linux/broadcom/vc_debug_sym.h>
 
-VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_hostname, "Android-ThinkPad-T400" );
-VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_version, "unknown" );
+VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_hostname, "ubuntu" );
+VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_version, "54e3638f10ee146db04b287a571244cd38ea13f3 (tainted)" );
 VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_time,    __TIME__ );
 VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_date,    __DATE__ );
 
