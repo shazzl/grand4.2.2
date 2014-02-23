@@ -2,7 +2,7 @@
 #include <linux/broadcom/vc_debug_sym.h>
 
 VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_hostname, "ubuntu" );
-VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_version, "1c18ecd9a8f6294733dbf63e7172135637ac11ef (tainted)" );
+VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_version, "960458a5b5e394b93032d7d53ba9d975b7e5c74a (tainted)" );
 VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_time,    __TIME__ );
 VC_DEBUG_DECLARE_STRING_VAR( vchiq_build_date,    __DATE__ );
 
