@@ -11,4 +11,4 @@
 ##CUR_TC=/home/ruby/Toolchains/linaro_4.8.3/bin/
 
 ### compile kernel
-ARCH=arm CROSS_COMPILE=/home/ruby/Toolchains/arm-linux-androideabi-4.7/bin/arm-linux-androideabi- make i9152_defconfig
+ARCH=arm CROSS_COMPILE=/home/ruby/Toolchains/arm-eabi-linaro-4.6.2/bin/arm-eabi- make i9152_defconfig
